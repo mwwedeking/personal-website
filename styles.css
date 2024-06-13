@@ -4,7 +4,8 @@ html, body{
     color: #555;
 }
 
-.main-header{
+/* Main Header */
+.main-header-container{
     background-image: url("Images/USCcampus.jpg");
     background-size: cover;
     background-position-y: 25%;
@@ -12,67 +13,63 @@ html, body{
     padding-bottom: 100px;
 }
 
-.main-header h1{
+.main-header-header{
     color:white;
     text-align: center;
     font-size: 50px;
 }
 
-.button {
+.main-header-nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header-nav {
+    display: inline;
     text-align: center;
-    vertical-align: middle;
-    padding: .67em;
-    cursor: pointer;
+    font-size: 25px;
 }
 
-.button-header {
-    margin: 4em 0% 2em 45%;
-    color: white;
-    border: 2px solid white;
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 50%;
-    font-size: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
+.main-header-nav-list {
+    padding: 0;
 }
 
-.button-header a {
-    color: white;
-    text-decoration: none;
-}
-
-.button-header:hover{
-    background-color: rgba(255, 255, 255, .3);
-}
-
-.nav ul{
-   margin: 0; 
-}
-
-.nav li{
+.main-header-nav-item {
     display: inline;
 }
 
-.nav a{
+.main-header-nav-item a {
     display: inline-block;
     color: white;
     padding: .5em;
     text-decoration: none;
 }
 
-.nav a:hover{
+.main-header-nav-item a:hover {
     background-color: rgba(255, 255, 255, .3);
 }
 
-.main-nav{
-    text-align: center;
-    font-size: 25px;
+.main-header-resume-button {
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    font-size: 1em;
 }
 
-.main-nav li{
-    padding: 2%;
+.main-header-resume-button a {
+    color: white;
+    text-decoration: none;
 }
 
+.main-header-resume-button:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+/* Section */
 .section-header {
     font-size: 2em;
     text-align: center;
@@ -84,7 +81,7 @@ html, body{
     text-align: center;
 }
 
-.container {
+.content-container {
     margin: 0, auto;
     padding: 0, auto;
     font-size: 1.4em;
@@ -97,16 +94,27 @@ html, body{
 }
 
 .about-content {
+    display: flex;
     padding-top: 0;
     padding-left: 10%;
     padding-right: 10%;
-    display: flex;
-    /* max-width: 1000px; */
     text-align: left;
 }
 
 .about-text {
-    padding-left: 5%;
+    margin: 0;
+}
+
+.about-profile-container {
+    margin: 25px;
+}
+
+.text-0 {
+
+}
+
+.text-1 {
+    margin-top: 10px;
 }
 
 .main-footer{
