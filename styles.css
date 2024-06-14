@@ -93,16 +93,28 @@ html, body{
     /* padding-right: 10px; */
 }
 
-.about-content {
-    display: flex;
+.graduation {
+    /* border-radius: 30%; */
+}
+
+.about-content-container {
+    display: block;
     padding-top: 0;
     padding-left: 10%;
     padding-right: 10%;
     text-align: left;
+    font-size: 25apx;
+}
+
+.about-content {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-text {
-    margin: 0;
+    margin: 25px;
 }
 
 .about-profile-container {
@@ -114,7 +126,7 @@ html, body{
 }
 
 .text-1 {
-    margin-top: 10px;
+   
 }
 
 .main-footer{
