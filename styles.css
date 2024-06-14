@@ -4,12 +4,6 @@ html, body{
     color: #555;
 }
 
-/* @media screen and (max-width: 1050px) {
-    .about-content {
-        display: block;
-    }
-} */
-
 /* Main Header */
 .main-header-container{
     background-image: url("Images/USCcampus.jpg");
@@ -81,16 +75,19 @@ html, body{
     text-align: center;
 }
 
-.content-section {
+.section-container {
     margin: 3em;
     font-size: 20px;
     text-align: center;
-}
-
-.content-container {
     margin: 0 auto;
     padding: 0 auto;
     font-size: 1.4em;
+}
+
+.content-container {
+    /* margin: 0 auto;
+    padding: 0 auto;
+    font-size: 1.4em; */
 }
 
 .about-picture{
@@ -98,7 +95,7 @@ html, body{
     border-radius: 50%;
 }
 
-.about-content-container {
+.content-container {
     display: block;
     padding-top: 0;
     padding-left: 10%;
@@ -107,10 +104,8 @@ html, body{
     font-size: 25px;
 }
 
-.about-content {
+.content {
     display: flex;
-    max-width: 1000px;
-    min-width: 1000px;
     justify-content: center;
     align-items: center;
 }
@@ -119,9 +114,21 @@ html, body{
     margin: 25px;
 }
 
-.about-picture-container {
+.picture-container {
     margin: 25px;
 }
+
+.project-picture {
+    width: 450px;
+    height: 250px;
+}
+
+/* I left off with trying to make this work */
+
+/* .project-picture:hover {
+    border-color: aqua;
+    border-width: 10px;
+} */
 
 .text-0 {
 
@@ -152,4 +159,10 @@ html, body{
 
 .footer-image {
     width: 80px;
+}
+
+@media screen and (max-width: 1050px) {
+    .content {
+        display: block;
+    }
 }
