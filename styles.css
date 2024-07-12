@@ -104,10 +104,6 @@ html, body{
 }
 
 .section-container-content-container {
-
-
-
-
     /* display: block;
     padding-top: 0;
     padding-left: 10%;
@@ -173,21 +169,39 @@ html, body{
     margin-right: 20%;
 }
 
-.main-footer-container-signature-container h3 {
+.main-footer-container-signature-container h4 {
     margin: 0;
 }
 
 form {
-    margin-left: 22%;
-    margin-right: 25%;
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
     background: maroon;
     display: flex;
     flex-direction: column;
-    padding: 2vw 4vw;
+    padding: 1vw;
     width: 90%;
-    max-width: 600px;
-    /* border-radius: 10%; */
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 5px 0;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 5px 35px 5px 35px;
+    margin: 5px auto 0px;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 1050px) {
