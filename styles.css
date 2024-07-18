@@ -1,3 +1,4 @@
+/* Created by: Miles Wedeking */
 html, body{
     margin: 0;
     padding: 0;
@@ -92,7 +93,7 @@ html, body{
 .section-container {
     margin: 3em;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     padding: 0 auto;
     font-size: 1.4em;
@@ -100,16 +101,15 @@ html, body{
 }
 
 .section-container-header {
-    font-size: 2em;
+    text-align: center;
 }
 
 .section-container-content-container {
-    /* display: block;
-    padding-top: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: left;
-    font-size: 50px; */
+    margin: 100px;
+}
+
+.section-container-header {
+    font-size: 2em;
 }
 
 .section-container-content-container-group {
@@ -128,26 +128,18 @@ html, body{
     text-indent: 50px;
     margin: 25px;
 }
+
 /* Experience page */
 .project-picture {
     width: 450px;
     height: 250px;
 }
 
-/* Trying to make this work */
+/* Not working */
 /* .project-picture:hover {
     border-color: aqua;
     border-width: 10px;
 } */
-
-/* Contact page */
-.section-container-content-container-form {
-    /* display: block; */
-}
-
-.section-container-content-container-form-item {
-    
-}
 
 /* Main Footer */
 .main-footer-container{
@@ -165,7 +157,7 @@ html, body{
 }
 
 .main-footer-container-signature-container {
-    margin-left: 27.5%;
+    margin-left: 29%;
     margin-right: 20%;
 }
 
@@ -204,6 +196,11 @@ form button {
     border-radius: 20px;
 }
 
+form button:hover {
+    background-color: rgba(255, 255, 255, .7);
+}
+
+/* Page Format */
 @media screen and (max-width: 1050px) {
     .section-container-content-container-group {
         display: block;
