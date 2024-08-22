@@ -1,5 +1,0 @@
-#ignoring specific file
-.env
-server.js
-#ignoring specific directories
-views

@@ -157,8 +157,8 @@ html, body{
 }
 
 .main-footer-container-signature-container {
-    margin-left: 29%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-footer-container-signature-container h4 {

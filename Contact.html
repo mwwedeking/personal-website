@@ -11,6 +11,7 @@
 
     <body>
         <div class="wrapper">
+
             <header class="main-header-container">
                 <img src="Images/USCcampus.jpg" class="main-header-container-background-image">
                 <h1 class="main-header-header">Miles C. Wedeking</h1>
@@ -22,14 +23,15 @@
                             <li class="main-header-nav-item"><a href="Contact.html">CONTACT</a></li>
                         </ul>
                     </nav>
-                    <button class="main-header-resume-button"><a href="Images/MilesWedeking-Resume-Official.pdf" target="_blank">View Resume</a></button>
+                    <button class="main-header-resume-button"><a href="Images/MilesWedeking-Resume-GAC.pdf" target="_blank">View Resume</a></button>
                 </div>
             </header>
 
             <section class="section-container">
                 <h2 class="section-container-header">Contact Request Form</h2>
                 <div class="section-container-content-container">
-                    <form action="http://formsubmit.co/8d6dce5c7755bdabf037526e0d9bd6fa" method="POST" class="section-container-content-container-form">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="section-container-content-container-form">
+                        <input type="hidden" name="access_key" value="b89ef347-fdf2-468b-9743-df3a14730aea">
                         <input type="text" name="name" placeholder="Name" required>
                         <input type="text" name="company" placeholder="Company" required>
                         <input type="text" name="email" placeholder="E-Mail" required>
@@ -53,5 +55,4 @@
 
         </div>
     </body>
-    
 </html>
